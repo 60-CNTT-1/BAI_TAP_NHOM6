@@ -1,0 +1,307 @@
+.container{
+    width: 1120px;
+    margin: 0 auto;
+    border:solid 2px grey;
+}
+
+/*header CSS*/
+.header{
+    width:100%;
+    height: 185px;
+    box-sizing: border-box;
+}
+.header .logo{
+    width:100%;
+    height:150px;
+    padding-top: 17px;
+    padding-left: 17px;
+    box-sizing: border-box;
+}
+.header .logo img{
+    width: 170px;
+    height: 120px;
+    background-color: grey;
+    float:left;
+}
+.header .logo div{
+    margin-left: 789px;
+}
+.header .logo .bt{
+    width: 135px;
+    height: 49px;
+    text-align: center;
+    margin-left: 12px;
+    font-size: 20px;
+    background-color: grey;
+    color: white;
+}
+.header .tkweb{
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+}
+.header .tkweb p{
+    float:left;
+    padding-left: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 26px;
+}
+.header .tkweb ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 762px;
+}
+.header .tkweb li{
+    list-style-type:none;
+    float:left;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-right: solid 1px blue;
+}
+.header .tkweb li:last-child{
+    border-right: none;
+    padding-right: 0;
+}
+.header .tkweb a{
+    text-decoration: none;
+    color:blue;
+}
+/*header CSS end*/
+
+/*tools CSS*/
+.tools{
+    width:100%;
+    height:50px;
+    background-color: grey;
+    border:solid 1px black;
+    box-sizing: border-box;
+}
+.tools ul{
+    margin:0;
+    padding-top: 11px;
+    padding-left: 20px;
+}
+.tools li{
+    list-style-type:none;
+    float:left;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-right: solid 4px white;
+    font-size: 25px;
+}
+.tools li:last-child{
+    border-right: none;
+}
+.tools a{
+    text-decoration: none;
+    color:white;
+}
+/*tools CSS end*/  
+
+
+
+.abc{
+    width:100%;
+    height: 1000px;
+}
+/* Content CSS  */
+.content{
+    width:70%;
+    height: 1000px;
+    float:left;
+}
+.content .sanpham{
+    height: 380px;
+    padding: 25px;
+}   
+.content .sanpham #spbig{
+    font-size: 35px;
+    margin:0;
+    color: grey;
+}
+.content .sanpham #spsmall{
+    font-size: 21px;
+    height: 185px;
+}
+.content .sanpham #spsmall span{
+    font-weight: bold;
+    font-size: 32px;
+    color: blue;
+}
+.content .sanpham #spsmall p{
+    margin-bottom: 0;
+    margin-top:10px;
+}
+.content .sanpham hr{
+    margin-top:0;
+    margin-bottom: 25px;
+}
+.content .sanpham #imgbig{
+    width: 230px;
+    height: 185px;
+    background-color: grey;
+    float:left;
+    margin-right:35px;
+}
+.content .sanpham ul{
+    margin-top: 20px;
+    list-style-type:none;
+    border: solid 1px grey;
+    padding-bottom: 90px;
+    padding-top: 10px;
+    padding-left: 55px;
+}
+.content .sanpham li{
+    float:left;
+    padding-right: 16px;
+}
+.content .sanpham li img{
+    width: 90px;
+    height: 80px;
+    background-color: grey;
+    border:solid thin grey;
+}
+.content .tintuc{
+    padding:25px;
+}
+.content .tintuc #tintucbig{
+    font-size: 35px;
+    color: grey;
+}
+.content .tintuc hr{
+    margin-top:0;
+    margin-bottom: 25px;
+}
+.content .tintuc p{
+    font-size: 21px;
+    border-bottom: dotted 2.5px grey;
+    margin-bottom: 19px;
+    padding-bottom: 17px;
+    margin-left: 13px;
+}
+.conten .tintuc p:last-child{
+    border-bottom: none;
+}
+.content .tintuc a{
+    text-decoration: none;
+}
+.content .tintuc img{
+    width: 100%;
+    height: 150px;
+    background-color: grey;
+}
+/* End Content CSS  */
+
+
+
+/* Link CSS */
+.link{
+    width:30%;
+    height: 1000px;
+    float:right;
+}
+.link .text{
+    height: 250px;
+    padding:25px;
+}
+.link .text span{
+    font-size: 35px;
+    margin: 0px;
+    color: grey;
+}
+.link .text ul{
+    list-style-type:none;
+    padding-left:11px;
+    margin-top: 11px;
+    line-height: 30px;
+    font-size:21px;
+}
+.link .text a{
+    text-decoration: none;
+    color:blue;
+}
+.link .text li::before{
+    content:"▶";
+    padding-right:15px;
+    color:blue;
+}
+.link .text hr{
+    margin:0;
+}
+.link .banner{
+    padding:25px;
+}
+.link .banner span{
+    font-size: 35px;
+    margin:0;
+    color: grey;
+}
+.link .banner hr{
+    margin-top:0;
+    margin-bottom: 25px;
+}
+.link .banner ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.link .banner li{
+    line-height: 65px;
+}
+.link .banner ul img{
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+}
+/* Link CSS end */
+
+
+
+
+/* Footer CSS */
+.footer{
+    width: 100%;
+    height:140px;
+    border-top:solid 1px grey;
+    box-sizing: border-box;
+    padding-right: 12px;
+    padding-top:10px;
+}
+.footer .info{
+    float:left;
+    padding-left: 25px;
+    margin-top: 0;
+    font-size: 21px;
+    color:grey;
+    
+}
+.footer ul{
+    margin-top: 0px;
+    margin-bottom:0px;
+    padding-left:760px;
+}
+.footer li{
+    list-style-type:none;
+    float:left;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-right: solid 1px blue;
+}
+.footer li:last-child{
+    border:none; 
+    padding-right: 0;
+}
+.footer a{
+    text-decoration: none;
+    color:blue;
+}
+.footer #copy{
+    text-align: right;
+    padding-top: 10px;
+    color:grey;
+}
+.footer span{
+    font-weight: bold;
+    color:black;
+}
+/* Footer CSS end*/
