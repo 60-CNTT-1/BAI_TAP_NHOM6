@@ -1,0 +1,547 @@
+body {
+    background-image: url("../html/BT19/multi/background.jpg");
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Banner CSS */
+/* .banner {
+    width: 100%;
+    height: 50px;
+    background-image: url('../html/BT19/multi/banner.jpg');
+    margin-bottom: 0.3%;
+}
+
+.banner a {
+    width: 120px;
+    height: 36px;
+    float: right;
+    margin-top: 11px;
+    margin-right: 83px;
+} */
+
+/* End Banner CSS */
+
+/* Content CSS */
+.content {
+    width: 100%;
+    height: 1120px;
+    margin-bottom: 0.5%;
+}
+
+/* Content_tools CSS */
+.content_tools {
+    width: 30%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* End Content_tools CSS */
+
+/*/* Content_tools_login CSS */
+.content_tools__login {
+    width: 100%;
+    height: 14%;
+    box-sizing: border-box;
+    border: solid 3px #90a4ad;
+    border-radius: 32px;
+    padding: 0px 10px 0px 10px;
+    font-family: -webkit-body;
+    margin-bottom: 1.5%;
+    background-color: #f37979;
+}
+
+.content_tools__login p {
+    margin: 10px auto;
+    font-size: 18px;
+    padding-left: 10px;
+    color: #404848;
+}
+
+.content_tools__login .txt {
+    width: 170px;
+    height: 24px;
+    border-radius: 10px;
+}
+
+.content_tools__login .txt1 {
+    margin-left: 15px;
+}
+
+.content_tools__login .txt2 {
+    margin-left: 45px;
+}
+
+.content_tools__login .button {
+    text-align: center;
+}
+
+.content_tools__login .button .btn1 {
+    margin-right: 20px;
+}
+
+.content_tools__login .button .btn {
+    width: 130px;
+    height: 23px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: solid 2px #c1c1c1;
+}
+
+.content_tools__login .button .btn:focus {
+    outline: none;
+}
+
+.content_tools__login .button .btn:hover {
+    border: dashed 1px black;
+}
+
+.content_tools__login .button .btn:active {
+    border: solid 1.5px black;
+}
+
+.content_tools__login .link {
+    width: 100%;
+    height: 21%;
+    font-size: 15px;
+    font-style: italic;
+    text-decoration: none;
+    text-align: right;
+    padding-top: 11px;
+}
+
+.content_tools__login .link1:hover {
+    text-decoration: underline;
+}
+
+.content_tools__login .link2 {
+    margin: 0 10px 0 17px;
+}
+
+.content_tools__login .link2:hover {
+    text-decoration: underline;
+}
+
+/*/* End Content_tools_login CSS */
+
+/*/* Content_tools_search CSS */
+.content_tools__search {
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+    border: solid 3px #90a4ad;
+    border-radius: 32px;
+    font-family: -webkit-body;
+    margin-bottom: 1.5%;
+    background-color: #f37979;
+}
+
+.content_tools__search .text .title {
+    text-align: center;
+    margin: 10px 0 10px 0;
+    font-size: 24.5px;
+    font-family: cursive;
+    background-color: #eb9c98;
+    border-radius: 17px 17px 0 0;
+}
+
+.content_tools__search .txt {
+    width: 219px;
+    height: 23px;
+    border-radius: 10px;
+    border: none;
+}
+
+.content_tools__search .text .p-txt {
+    margin-top: 0;
+    margin-bottom: 8px;
+    padding-left: 16px;
+    font-size: 18px;
+    color: #404848;
+}
+
+.content_tools__search .text .p-txt .txt1 {
+    margin-left: 15px;
+}
+
+.content_tools__search .text .p-txt .txt2 {
+    margin-left: 20px;
+}
+
+.content_tools__search .text .p-txt .txt3 {
+    margin-left: 7px;
+    height: 23px;
+    width: 223px;
+    cursor: pointer;
+}
+
+.content_tools__search .text .p-txt .txt4 {
+    margin-left: 27px;
+}
+
+.content_tools__search .button {
+    text-align: right;
+    padding-right: 17px;
+}
+
+.content_tools__search .button .btn2 {
+    margin-left: 14px;
+}
+
+.content_tools__search .button .btn {
+    width: 96px;
+    height: 23px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: solid 2px #c1c1c1;
+}
+
+.content_tools__search .button .btn:focus {
+    outline: none;
+}
+
+.content_tools__search .button .btn:hover {
+    border: dashed 1px black;
+}
+
+.content_tools__search .button .btn:active {
+    border: solid 1.5px black;
+}
+
+/*/* End Content_tools_search CSS */
+
+/*/* Content_tools_menu CSS */
+.content_tools__menu {
+    width: 100%;
+    height: 65%;
+    box-sizing: border-box;
+    border: solid 3px #90a4ad;
+    border-radius: 32px;
+    font-family: -webkit-pictograph;
+    background-color: #f37979;
+}
+
+.content_tools__menu .title {
+    text-align: center;
+    font-size: 30px;
+    margin: 15px 0 10px 0;
+    font-family: cursive;
+    background-color: #eb9c98;
+    border-radius: 10px 10px 0 0;
+}
+
+.content_tools__menu .menumain {
+    text-decoration: none;
+    color: lemonchiffon;
+}
+
+.content_tools__menuitems {
+    margin: 0;
+    font-size: 27px;
+    padding: 8px 0 8px 22px;
+    height: 37px;
+}
+
+.content_tools__menuitems:hover {
+    background-color: #90a4ad;
+}
+
+.content_tools__menu .menumain:hover {
+    color: #3a1616;
+}
+
+.content_tools__menu .menumain:focus {
+    color: #3a1616;
+}
+
+/*/* End Content_tools_menu CSS */
+
+/* Content_date CSS */
+.content_date {
+    width: 69.6%;
+    height: 2%;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 0.3%;
+    margin-left: 0.4%;
+}
+
+.content_date #date {
+    margin: 0;
+    padding-right: 33px;
+    text-align: right;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* End Content_date CSS */
+
+/* Content_quicklink */
+.content_quicklink {
+    width: 69.6%;
+    height: 4.3%;
+    float: left;
+    font-size: 28px;
+    box-sizing: border-box;
+    border: solid 3px #90a4ad;
+    border-radius: 32px;
+    margin-bottom: 0.3%;
+    margin-left: 0.4%;
+    background-color: #f37979;
+}
+
+.content_quicklink .quicklink_items {
+    width: auto;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px 49.8px 5px 49.8px;
+    float: left;
+    border-radius: 57px;
+}
+
+.content_quicklink a:hover {
+    background-color: #94a5b5;
+    color: #ffff00;
+}
+
+.content_quicklink a:active {
+    background-color: #fffffffc;
+    color: #000000;
+}
+
+.content_quicklink a:focus {
+    background-color: #94a5b5;
+    color: #ffff00;
+}
+
+/* End Content_quicklink */
+
+/* Content_article CSS */
+.content_article {
+    width: 42.6%;
+    height: 93.1%;
+    float: left;
+    box-sizing: border-box;
+    border: solid 3px #90a4ad;
+    border-radius: 32px;
+    margin-left: 0.4%;
+    background-color: #ffedc7;
+}
+
+.content_article iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 29px;
+}
+
+/* End Content_article CSS */
+
+/* Content_assist CSS */
+.content_assist {
+    width: 26.6%;
+    height: 93.1%;
+    float: left;
+    box-sizing: border-box;
+    border: solid 3px #90a4ad;
+    border-radius: 32px;
+    margin-left: 0.4%;
+    background-color: #f37979;
+}
+
+/* /* Content_assist__booksell CSS */
+.content_assist__booksell {
+    float: left;
+}
+
+.content_assist__booksell .bstitle {
+    text-align: center;
+    margin: 5px 0px 7px 0px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+    background-color: #eb9c98;
+    border-radius: 22px 22px 0 0;
+}
+
+.content_assist__booksell ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content_assist__booksell ul li {
+    float: left;
+    margin: 5.3%;
+    width: 38%;
+}
+
+.content_assist__booksell ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Courier;
+}
+
+.content_assist__booksell ul li a .link_area {
+    text-align: center;
+    width: auto;
+    height: 170px;
+    background-color: white;
+    border: solid 2.5px #93a6b4;
+}
+
+.content_assist__booksell ul li a .link_area:hover {
+    border: solid 2.5px #3a1616;
+    border-radius: 15px;
+}
+
+.content_assist__booksell ul li .link .link_area img {
+    margin-top: 3px;
+    width: 99%;
+    height: 63%;
+    border-radius: 15px;
+}
+
+.content_assist__booksell ul li .link .link_area p {
+    margin: 0;
+}
+
+/*/* End Content_assist__booksell CSS */
+
+/*/* Content_assist__selloff CSS */
+.content_assist__selloff {
+    float: left;
+    border-top: dashed 2px #2a5061;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+}
+
+.content_assist__selloff .bstext {
+    text-align: center;
+    margin: 9px 0px 7px 0px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+    background-color: #eb9c98;
+    border-radius: 20px 20px 0 0;
+}
+
+.content_assist__selloff ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content_assist__selloff ul li {
+    position: relative;
+    float: left;
+    margin: 5.3%;
+    width: 38%;
+}
+
+.content_assist__selloff ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Courier;
+}
+
+.content_assist__selloff ul li a .link_area {
+    text-align: center;
+    width: auto;
+    height: 170px;
+    background-color: white;
+    border: solid 2.5px #93a6b4;
+}
+
+.content_assist__selloff ul li a .link_area:hover {
+    border: solid 2.5px #3a1616;
+    border-radius: 15px;
+}
+
+.content_assist__selloff ul li .link .link_area img {
+    margin-top: 3px;
+    width: 99%;
+    height: 63%;
+    border-radius: 15px;
+}
+
+.content_assist__selloff ul li::after {
+    position: absolute;
+    transform: rotate(332deg);
+    text-align: center;
+    content: "25%";
+    width: 60px;
+    height: 30px;
+    font-size: 25px;
+    color: red;
+    top: -6px;
+    left: -17px;
+    background-color: orange;
+    border-radius: 50px 20px 50px 20px;
+    border: dashed 1.5px;
+}
+
+.content_assist__selloff ul li .link .link_area p {
+    margin: 0;
+}
+
+/*/* End Content_assist__selloff CSS */
+
+/* End Content_assist CSS */
+
+/* End Content CSS */
+
+/* Footer CSS */
+.footer {
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 7px 12px 0px 12px;
+    border-top: solid 2px brown;
+    border-bottom: solid 2px brown;
+    border-radius: 11px;
+}
+
+/*/* Footer left css */
+.footer .text {
+    margin: 0;
+    margin-bottom: 2.5px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.footer .footer_left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+/*/* End Footer left css */
+
+/*/* Footer right css */
+.footer .footer_right {
+    width: 50%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.footer .footer_right p {
+    text-align: right;
+}
+
+.footer .footer_right img {
+    width: 45px;
+    float: right;
+    border: solid thin;
+}
+
+/*/* Footer right css */
+/* End Footer CSS */
